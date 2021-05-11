@@ -1,0 +1,5 @@
+package com.jacome.spring.springdatajpa.entity;
+
+public class Product {
+
+}

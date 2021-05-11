@@ -1,0 +1,30 @@
+package com.jacome.spring.springcoreadvanced.autowiring.xml;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Employee {
+
+	public Address address;
+		
+	@Autowired
+	public Employee(Address address) {
+		this.address = address;
+	}
+	
+	public Address getAddress() {
+		return address;
+	}
+	
+	// Injeção de Dependência por Propriedade
+	// @Autowired
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Employee [address=" + address + "]";
+	}	
+
+}

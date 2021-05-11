@@ -1,0 +1,9 @@
+package com.jacome.spring.springdatajpa.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.jacome.spring.springdatajpa.entity.Product;
+
+public interface ProductRepository extends CrudRepository<Product, Integer> {
+
+}

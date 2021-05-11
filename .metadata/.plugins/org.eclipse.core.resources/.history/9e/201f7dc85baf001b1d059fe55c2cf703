@@ -1,0 +1,5 @@
+package com.jacome.spring.springaop;
+
+public interface ProductService {
+
+}

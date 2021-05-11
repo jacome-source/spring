@@ -1,0 +1,5 @@
+package com.jacome.spring.springmvcorm.entity;
+
+public class User {
+
+}

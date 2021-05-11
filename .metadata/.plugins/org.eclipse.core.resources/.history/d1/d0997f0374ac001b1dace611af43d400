@@ -1,0 +1,5 @@
+package com.jacome.spring.springcore.scope;
+
+public class Student {
+
+}

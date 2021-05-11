@@ -1,0 +1,5 @@
+package com.jacome.spring.springorm.entity;
+
+public class Product {
+
+}

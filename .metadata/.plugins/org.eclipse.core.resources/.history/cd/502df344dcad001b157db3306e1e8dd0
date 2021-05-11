@@ -1,0 +1,28 @@
+package com.jacome.spring.springorm.product.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+
+import com.jacome.spring.springorm.entity.Product;
+
+public class ProductDaoImpl implements ProductDao {
+
+	HibernateTemplate hibernateTemplate;	
+	
+	@Override
+	public int create(Product product) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public HibernateTemplate getHibernateTemplate() {
+		return hibernateTemplate;
+	}
+
+	@Autowired
+	public void setHibernateTemplate(HibernateTemplate hibernateTemplate) {
+		this.hibernateTemplate = hibernateTemplate;
+	}
+
+	
+}

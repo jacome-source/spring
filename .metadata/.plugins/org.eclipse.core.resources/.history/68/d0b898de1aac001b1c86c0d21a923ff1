@@ -1,0 +1,9 @@
+package com.jacome.spring.springcore.propeties;
+
+import java.util.Properties;
+
+public class Languages {
+
+	private Properties countrysAndLangs;
+	
+}

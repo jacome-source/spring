@@ -1,0 +1,6 @@
+package com.jacome.spring.springcoreadvanced.interfaces;
+
+public interface OrderBO {
+
+	public void placeOrder();
+}

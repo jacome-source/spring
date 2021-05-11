@@ -1,0 +1,5 @@
+package com.jacome.spring.springcoreadvanced.standalonecollection;
+
+public class ProductList {
+
+}

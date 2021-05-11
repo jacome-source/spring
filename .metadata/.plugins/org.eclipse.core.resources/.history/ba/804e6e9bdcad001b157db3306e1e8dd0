@@ -1,0 +1,20 @@
+package com.jacome.spring.springorm.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.jacome.spring.springjdbc.employee.dao.EmployeeDao;
+import com.jacome.spring.springjdbc.employee.entity.Employee;
+
+public class TestCreate {
+
+	public static void main(String[] args) {
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("com/jacome/spring/springorm/conf/config.xml");
+		
+    	ProductDao dao = (ProductDao) ctx.getBean("employeeDao");
+    	Product prod = new Product(1, "Teste", "Teste", 100);
+    	int result = dao.create(prod);
+    	System.out.println("Numbers of records inserted: "+result);
+	}
+
+}

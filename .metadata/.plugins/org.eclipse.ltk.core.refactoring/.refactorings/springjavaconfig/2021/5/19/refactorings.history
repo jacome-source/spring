@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.jacome.spring.springjavaconfig.dao&apos; to &apos;Dao&apos;&#x0D;&#x0A;- Original project: &apos;springjavaconfig&apos;&#x0D;&#x0A;- Original element: &apos;com.jacome.spring.springjavaconfig.dao&apos;&#x0D;&#x0A;- Renamed element: &apos;com.jacome.spring.springjavaconfig.Dao&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;dao&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.jacome.spring.springjavaconfig{dao.java[dao" matchStrategy="1" name="Dao" qualified="false" references="true" similarDeclarations="false" stamp="1620418893266" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,21 @@
+package com.jacome.spring.springmvc.conf;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+/**
+ * @EnableWebMvc: Permite utilização de annotations de contexto web no projeto, como RequestMapping
+ * @ComponentScan Varre o package adicionando os beans
+ * @Configuration Identifica arquivo de configuração a ser utilizado pelo ApplicationContext
+ * 
+ * @author diego
+ *
+ */
+@EnableWebMvc
+@ComponentScan("com.jacome.spring.springmvc")
+@Configuration
+public class SpringConf implements WebMvcConfigurer{
+
+}

@@ -1,0 +1,7 @@
+package com.jacome.spring.springmvcorm.user.dao;
+
+public interface UserDao {
+
+	int create(User user);
+	
+}

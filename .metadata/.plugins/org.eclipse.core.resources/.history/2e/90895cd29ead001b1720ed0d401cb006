@@ -1,0 +1,14 @@
+package com.jacome.spring.springcoreadvanced.interfaces;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public abstract class Test {
+
+	public static void main(String[] args) {
+    	ApplicationContext ctx = new ClassPathXmlApplicationContext("com/jacome/spring/springcoreadvanced/interfaces/interfaces-config.xml");
+    	OrderBOImpl order = (OrderBOImpl) ctx.getBean("bo");
+    	System.out.println(order);
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.jacome.spring.springjavaconfig;
+
+@Component
+public class dao {
+
+	public void create() {
+		System.out.println("Created");
+	}
+}

@@ -1,0 +1,9 @@
+package com.jacome.spring.springmvc.controller;
+
+import org.springframework.stereotype.Controller;
+
+// Informa que a classe processa requisição HTTP
+@Controller
+public class HelloController {
+
+}

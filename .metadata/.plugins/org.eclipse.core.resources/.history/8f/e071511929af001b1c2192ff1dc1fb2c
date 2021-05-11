@@ -1,0 +1,5 @@
+package com.jacome.spring.springmvcorm.user.service;
+
+public class UserServiceImpl implements UserService {
+
+}

@@ -1,0 +1,11 @@
+package com.jacome.spring.springcoreadvanced.interfaces;
+
+public class OrderDAOImpl implements OrderDAO {
+
+	@Override
+	public void createOrder() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

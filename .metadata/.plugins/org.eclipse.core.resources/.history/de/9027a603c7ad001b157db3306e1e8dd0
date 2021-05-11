@@ -1,0 +1,5 @@
+package com.jacome.spring.springjdbc.employee.entity;
+
+public class Employee {
+
+}

@@ -1,0 +1,6 @@
+package com.jacome.spring.springcoreadvanced.interfaces;
+
+public interface OrderDAO {
+
+	public void createOrder();
+}

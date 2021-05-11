@@ -1,0 +1,9 @@
+package com.jacome.spring.springcore.dependencycheck;
+
+public class Prescription {
+
+	private int id;
+	private String patientName;
+	private List<String> medicines
+	
+}

@@ -1,0 +1,5 @@
+package com.jacome.spring.springcoreadvanced.stereotype;
+
+public class Instructor {
+
+}

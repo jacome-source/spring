@@ -1,0 +1,5 @@
+package com.jacome.spring.springjdbc.employee.dao;
+
+public interface EmployeeDao {
+
+}

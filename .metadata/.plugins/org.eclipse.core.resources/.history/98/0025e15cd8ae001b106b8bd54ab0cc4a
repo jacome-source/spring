@@ -1,0 +1,6 @@
+package com.jacome.spring.springmvc.controller;
+
+@Controller
+public class RequestParamsController {
+
+}

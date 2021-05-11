@@ -1,0 +1,5 @@
+package com.jacome.spring.springcore.dependencycheck;
+
+public class Prescription {
+
+}

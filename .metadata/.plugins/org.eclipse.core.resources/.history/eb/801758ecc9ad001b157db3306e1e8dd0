@@ -1,0 +1,8 @@
+package com.jacome.spring.springjdbc.employee.dao;
+
+import com.jacome.spring.springjdbc.employee.entity.Employee;
+
+public interface EmployeeDao {
+
+	int create(Employee employee);
+}

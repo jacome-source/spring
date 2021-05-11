@@ -1,0 +1,5 @@
+package com.jacome.spring.springcore.innerbeans;
+
+public class Adress {
+
+}

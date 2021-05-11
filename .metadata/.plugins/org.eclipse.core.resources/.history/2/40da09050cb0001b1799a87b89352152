@@ -1,0 +1,5 @@
+package com.jacome.spring.springboot.dao;
+
+public class Dao {
+
+}

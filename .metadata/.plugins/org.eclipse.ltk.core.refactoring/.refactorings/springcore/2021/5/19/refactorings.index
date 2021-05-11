@@ -1,0 +1,51 @@
+1620045709910	Delete element
+1620047330590	Copy file
+1620047337653	Rename resource 'config.xml'
+1620048696904	Copy file
+1620048759031	Rename resource 'listconfig.xml'
+1620048846834	Rename type 'Car'
+1620051016629	Copy file
+1620051025153	Rename resource 'setconfig.xml'
+1620051799627	Copy file
+1620051808522	Rename resource 'mapconfig.xml'
+1620052041052	Rename resource 'langconfig.xml'
+1620052075986	Rename package 'com.jacome.spring.springcore.propeties'
+1620053307118	Rename type 'Score'
+1620063649576	Copy file
+1620063674952	Rename resource 'propconfig.xml'
+1620066406837	Copy file
+1620066433044	Rename resource 'refconfig.xml'
+1620068406886	Copy elements
+1620068538192	Rename resource 'lc-xml-config.xml'
+1620068962860	Copy compilation units
+1620069007990	Delete element
+1620069011051	Copy compilation unit
+1620069043201	Copy file
+1620069053149	Rename resource 'lc-interface-config.xml'
+1620071235348	Copy elements
+1620071271851	Rename resource 'lc-annotations-config.xml'
+1620071894958	Delete element
+1620072587150	Copy elements
+1620072599834	Rename resource 'refconfig.xml'
+1620090021144	Copy file
+1620090032066	Rename resource 'refconfig.xml'
+1620090040218	Rename resource 'scorpeconfig.xml'
+1620090100596	Copy compilation unit
+1620090201974	Rename resource 'scorpe-config.xml'
+1620090718946	Rename package 'com.jacome.spring.springcore'
+1620090742064	Rename package 'com.jacome.spring.springcore.primitive'
+1620090754171	Move file
+1620090771055	Rename resource 'config.xml'
+1620135456384	Copy file
+1620135470833	Rename resource 'innerbean-config.xml'
+1620135543638	Rename type 'Adress'
+1620135604837	Copy compilation unit
+1620136406279	Rename field 'steet'
+1620137363117	Rename type 'Addiction'
+1620137524523	Copy file
+1620137536065	Rename resource 'innerbean-config.xml'
+1620137555821	Rename resource 'innerbean-aambiguity-config.xml'
+1620137694571	Copy compilation unit
+1620145748319	Copy file
+1620145764703	Rename resource 'constructor-injection-config.xml'
+1620148149481	Copy elements

@@ -1,0 +1,10 @@
+package com.jacome.spring.springcoreadvanced.interfaces;
+
+public class OrderBOImpl implements OrderBO {
+
+	@Override
+	public void placeOrder() {
+		System.out.println("Inside Order BO");
+	}
+
+}

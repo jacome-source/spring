@@ -1,0 +1,13 @@
+package com.jacome.spring.springorm.product.dao;
+
+import com.jacome.spring.springorm.entity.Product;
+
+public class ProductDaoImpl implements ProductDao {
+
+	@Override
+	public int create(Product product) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.jacome.spring.springjdbc.conf;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.jacome.spring.springjdbc.employee.dao.EmployeeDao;
+import com.jacome.spring.springjdbc.employee.entity.Employee;
+
+public class Test {
+
+	public static void main(String[] args) {
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("com/jacome/spring/springjdbc/conf/config.xml");
+		
+		// Testando conexão
+    	EmployeeDao dao = (EmployeeDao) ctx.getBean("employeeDao");
+    	Employee empl = new Employee(2, "Dalva", "Melo");
+    	int result = dao.create(empl)
+    	System.out.println("Numbers of records inserted: "+result);
+	}
+
+}

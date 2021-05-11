@@ -1,0 +1,5 @@
+package com.jacome.spring.springaop.aspects;
+
+public class LoggingAspect {
+
+}

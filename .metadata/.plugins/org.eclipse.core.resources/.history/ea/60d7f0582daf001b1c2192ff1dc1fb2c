@@ -1,0 +1,23 @@
+package com.jacome.spring.springmvcorm.user.service;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.jacome.spring.springmvcorm.user.dao.UserDao;
+import com.jacome.spring.springmvcorm.user.entity.User;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private UserDao dao;
+
+	@Override
+	@Transactional
+	public int save(User user) {
+		return dao.create(user);
+	}
+	
+}

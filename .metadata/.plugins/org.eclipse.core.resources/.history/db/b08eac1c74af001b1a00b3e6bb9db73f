@@ -1,0 +1,17 @@
+package com.jacome.spring.springjavaconfig;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(SpringConf.class);
+		// AnnotationConfigApplicationContext permite método register que pode adicionar várias classes de configuração
+//		ctx.register(SpringConf2.class);
+		
+		Dao dao = ctx.getBean(Dao.class);
+		dao.create();
+	}
+
+}

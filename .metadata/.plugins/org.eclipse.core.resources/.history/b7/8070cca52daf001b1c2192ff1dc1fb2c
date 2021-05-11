@@ -1,0 +1,9 @@
+package com.jacome.spring.springmvcorm.user.service;
+
+import com.jacome.spring.springmvcorm.user.entity.User;
+
+public interface UserService {
+
+	int save(User user);
+	
+}

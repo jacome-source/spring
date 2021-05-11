@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Estrutura básica do XML Spring  -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean name="address" class="com.jacome.spring.springcoreadvanced.autowiring.Address" p:number="460" p:street="Campos Sales" p:city="Natal"/>	
+
+	<!-- Autowiring By Type -->
+	<!-- 
+	<bean name="employee" class="com.jacome.spring.springcoreadvanced.autowiring.Employee" autowire="byType"/>
+ 	-->
+ 	
+ 	<!-- Autowiring By Name -->
+	<!-- 
+	<bean name="employee" class="com.jacome.spring.springcoreadvanced.autowiring.Employee" autowire="byName"/>
+ 	-->
+ 	
+ 	<bean name="employee" class="com.jacome.spring.springcoreadvanced.autowiring.Employee" autowire="constructor"/>
+</beans>

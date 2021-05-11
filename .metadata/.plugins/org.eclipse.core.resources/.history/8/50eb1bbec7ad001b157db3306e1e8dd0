@@ -1,0 +1,26 @@
+package com.jacome.spring.springjdbc.employee.dao;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.jacome.spring.springjdbc.employee.entity.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao{
+
+	private JdbcTemplate jdbcTemplate;
+	
+	@Override
+	public int create(Employee employee) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public JdbcTemplate getJdbcTemplate() {
+		return jdbcTemplate;
+	}
+
+	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
+	
+}

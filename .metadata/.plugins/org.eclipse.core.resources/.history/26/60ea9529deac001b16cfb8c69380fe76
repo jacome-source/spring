@@ -1,0 +1,27 @@
+package com.jacome.spring.springcore.innerbeans;
+
+public class Employee {
+	
+	private int id;
+	private Address adress;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public Address getAdress() {
+		return adress;
+	}
+	public void setAdress(Address adress) {
+		this.adress = adress;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", adress=" + adress + "]";
+	}	
+
+}

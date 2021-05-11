@@ -1,0 +1,11 @@
+package com.jacome.spring.springaop;
+
+public class ProductServiceImpl implements ProductService {
+
+	@Override
+	public int multiply(int m1, int m2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
